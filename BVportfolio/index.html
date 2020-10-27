@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+        An Online Portfolio for Brian Vollner
+    </title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5c01175067.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="site-name">BV</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#artwork">Artist</a></li>
+                    <li><a href="#design">Designer</a></li>
+                    <li><a href="#educator">Educator</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero hero--featured">
+                <div class="hero__content">
+                    <h2 class="section-heading">Brian Vollner</h2>
+                    <ul class="hero__list">
+                        <li>Artist</li>
+                        <li>Designer</li>
+                        <li>Educator</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="artwork">
+                <h3 class="section-heading">Artwork</h3>
+                <div class="flat-list">
+                    <article>
+                        <a href="artwork/artwork.html"><img src="artwork/images/ribcage.closeup2.jpg"
+                                alt="A close up of jewelry that has gothic architectural features"></a>
+                        <a href="artwork/artwork.html">
+                            <h4>Metalwork</h4>
+                        </a>
+                        <p>
+                            This collection represents some of the work that was produced during my time as an
+                            undergraduate
+                            at
+                            Kent State University (Kent, OH). I completed my BFA in Crafts: Jewelry/Metals and my BA in
+                            Art
+                            History
+                        </p>
+                    </article>
+
+                    <article>
+                        <a href="photo/photo.html"><img src="photo/images/Seattle.jpg"
+                                alt="A black and white image of downtown Seattle"></a>
+                        <a href="photo/photo.html">
+                            <h4>Photography</h4>
+                        </a>
+                        <p>
+                            This collection contains images taken in the Pacific Northwest. It is a sampling of most
+                            recent
+                            work.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="design">
+                <div class="container">
+                    <h3 class="section-heading">Design</h3>
+                    <div class="flat-list">
+                        <article>
+                            <a href="design/design.html"><img src="design/images/fisherpoets.jpg"
+                                    alt="Fisherpoet's Poster"></a>
+                            <a href="design/design.html">
+                                <h4>Independent Works</h4>
+                            </a>
+                            <p>Contained within this link are projects that were completed for previous coursework, by
+                                request of my
+                                my school district, and for members of my local community.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="educator">
+                <div class="container">
+                    <h3 class="section-heading">Professional Craft</h3>
+                    <div class="flat-list">
+                        <article>
+                            <a href="curriculum/curriculum.html"><img src="images/cover.png"
+                                    alt="Designing for the 21st Century Cover"></a>
+
+                            <a href="curriculum/curriculum.html">
+                                <h4>Curriculum Design</h4>
+                            </a>
+                            <p>An example of curriculum that defines some of the foundational principles of my teaching
+                                pedagogy and
+                                philosophy.</p>
+                        </article>
+
+                        <article>
+                            <a href="student/student.html"><img src="student/images/shyler.jpg"
+                                    alt="An abstract piece of artwork"></a>
+
+                            <a href="student/student.html">
+                                <h4>Student Examples</h4>
+                            </a>
+                            <p>Examples of various student work for your consideration.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <form action="my-form.php" method="post">
+                        <h3 class="section-heading">Take a minute to say hello!</h3>
+                        <div class="flat-list">
+                            <fieldset>
+                                <legend>Contact Information:</legend><br>
+                                <label for="Name">Name:<input type="text" name="Name" id="Name"></label><br>
+                                <label for="Email">Email:<input type="text" name="Email" id="Email"></label><br>
+                                <label for="Phone">Phone:<input type="tel" name="Phone" id="Phone"></label><br>
+                            </fieldset>
+
+                            <p><label for="comments">Comments:</label><textarea name="comments" rows="10"
+                                    id="comments">Let me know what you think!</textarea></p>
+
+                            <p><input type="submit"></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+
+            <ul class="social-media">
+                <li><a href="#" class="page-footer__link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="page-footer__link"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="page-footer__link"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#" class="page-footer__link"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
